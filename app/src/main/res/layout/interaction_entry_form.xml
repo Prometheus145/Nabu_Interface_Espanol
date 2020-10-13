@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InteractionEntryForm">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/interaction_form_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Formulario de entrada de interacción"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRiskEvalDescr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/interaction_form_title"
+        android:layout_marginTop="13dp"
+        android:gravity="center_horizontal"
+        android:text="@string/decsrip_interaction_eval"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/date_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/date_question" />
+
+    <TextView
+        android:id="@+id/date_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la fecha en FORMATO MM / DD / AA: "
+        android:textColor="#070707"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtRiskEvalDescr"/>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/question1"/>
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_entry"
+        android:layout_marginTop="10dp"
+        android:text="1. ¿Usó equipo sanitario adecuado?"
+        android:textColor="#070707" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2"
+        android:layout_marginTop="10dp"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner1"
+        android:layout_marginTop="10dp"
+        android:text="2. ¿Seguió protocolos de distanciamiento social?"
+        android:textColor="#070707" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3"
+        android:layout_marginTop="10dp"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner2"
+        android:layout_marginTop="10dp"
+        android:text="3. ¿Con cuántas personas interactuó?"
+        android:textColor="#070707" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question4"
+        android:layout_marginTop="10dp"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner3"
+        android:layout_marginTop="10dp"
+        android:text="4. ¿Cuánto tiempo duró la interacción?"
+        android:textColor="#070707" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question5"
+        android:layout_marginTop="10dp"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner4"
+        android:layout_marginTop="10dp"
+        android:text="5. ¿Estaba adentro o afuera?"
+        android:textColor="#070707" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner5"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-62dp"
+        android:gravity="center_horizontal"
+        android:onClick="submit"
+        android:text="Enviar" />
+
+
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">NABU Interface</string>
+    <string name="tab_text1">Puntuación de riesgo</string>
+    <string name="tab_text2">Interacciones</string>
+    <string name="tab_text3">información adicional</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NABUScore">Score: </string>
+
+    <string name = "symptomsLink">
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Lista de síntomas</a>
+    </string>
+
+    <string name = "numCasesLink">
+<a href = "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Puede ver este mapa para averiguarlo.</a>
+    </string>
+
+    <string name = "airLink">
+<a href = "https://www.airnow.gov">Visite este enlace para obtener una evaluación precisa de la calidad del aire.</a>
+    </string>
+
+    <string name="resource1">
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">Los recursos del Centro para el Control y la Prevención de Enfermedades sobre COVID-19</a>
+    </string>
+
+    <string name="resource2">
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/index.html">La vida diaria durante la pandemia</a>
+    </string>
+
+    <string name="resource3">
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html">Que hacer si estas enfermo</a>
+    </string>
+
+    <string name="resource4">
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">Actualizaciones de COVID-19 en EE. UU.</a>
+    </string>
+
+    <!-- Personal risk eval form spinner items-->
+    <string-array name="ageSpinner">
+        <item>0-4</item>
+        <item>5-17 </item>
+        <item>18-29</item>
+        <item>30-39</item>
+        <item>40-49</item>
+        <item>50-64</item>
+        <item>65-74</item>
+        <item>75-84</item>
+        <item>85+</item>
+    </string-array>
+
+    <string-array name="majDiseaseSpinner">
+        <item>No tengo ninguna de las condiciones de salud enumeradas.</item>
+        <item>Tengo una o dos de las condiciones de salud enumeradas.</item>
+        <item>Tengo tres o más de las condiciones de salud enumeradas.</item>
+    </string-array>
+
+    <string-array name="symptomsSpinner">
+        <item>Sin síntomas</item>
+        <item>Un síntoma menor</item>
+        <item>Dos o más síntomas</item>
+        <item>Un síntoma severo</item>
+        <item>Un síntoma grave y dos o más síntomas menores</item>
+        <item>Dos o más síntomas graves</item>
+    </string-array>
+
+    <string-array name="sanitationSpinner">
+        <item>Tengo abundante acceso a suministros de saneamiento.</item>
+        <item>Tengo un acceso mínimo a los suministros de saneamiento.</item>
+        <item>No tengo acceso a suministros de saneamiento.</item>
+    </string-array>
+
+    <string-array name="minDiseaseSpinner">
+        <item>No tengo ninguna de las condiciones de salud enumeradas.</item>
+        <item>Tengo una o dos de las condiciones de salud enumeradas.</item>
+        <item>Tengo tres o más de las condiciones de salud enumeradas.</item>
+    </string-array>
+
+    <string-array name="jobSpinner">
+        <item>Actualmente trabajo desde la casa</item>
+        <item>Rara vez trabajo en persona con otras personas.</item>
+        <item>A menudo trabajo en persona con otras personas.</item>
+    </string-array>
+
+    <string-array name="pastDiseaseSpinner">
+        <item>Nunca he tenido las condiciones de salud enumeradas.</item>
+        <item>Tengo una o dos de las condiciones de salud enumeradas en el pasado.</item>
+        <item>He tenido tres o más de las condiciones de salud enumeradas.</item>
+    </string-array>
+
+    <string-array name="prevIntSanSpinner">
+        <item>La mayoría de las personas con las que interactué tomó las medidas correctivas adecuadas.</item>
+        <item>Algunas de las personas con las que interactué tomó las medidas correctivas adecuadas.</item>
+        <item>Solo unas pocas de las personas con las que interactué tomó las medidas correctivas adecuadas.</item>
+        <item>Nadie de las personas con las que interactué tomó las medidas correctivas adecuadas.</item>
+    </string-array>
+
+    <string-array name="partNumSpinner">
+        <item>Menos de cinco</item>
+        <item>5-10</item>
+        <item>10-20</item>
+        <item>20+</item>
+    </string-array>
+
+    <string-array name="inOutSpinner">
+        <item>Fuera de casa.</item>
+        <item>Dentro de la casa.</item>
+    </string-array>
+
+    <string-array name="SDSpinner">
+        <item>Siempre/Frequentemente</item>
+        <item>Rara vez / nunca</item>
+    </string-array>
+
+    <string-array name="airSpinner">
+        <item>Bueno</item>
+        <item>Moderado</item>
+        <item>Malsano para grupos sensibles</item>
+        <item>Malsano</item>
+        <item>Muy malsano</item>
+        <item>Peligroso</item>
+    </string-array>
+
+    <string-array name="tempSpinner">
+        <item>Por debajo de 32</item>
+        <item>32 - 50</item>
+        <item>50 - 70</item>
+        <item>70 - 90</item>
+        <item>90 - 100</item>
+        <item>100+</item>
+    </string-array>
+
+<!--Interaction Form Stuff-->
+    <string-array name="binaryanswer">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="interactionstime">
+        <item>Menos de una hora</item>
+        <item>Entre una y tres horas</item>
+        <item>Entre tres y cinco horas</item>
+        <item>Entre cinco y ocho horas</item>
+        <item>Mas de ocho horas</item>
+    </string-array>
+
+    <string-array name="interactionsplace">
+        <item>Fuera de casa.</item>
+        <item>Dentro de la casa.</item>
+    </string-array>
+
+    <string-array name="interactionspeople">
+        <item>Menos de cinco</item>
+        <item>5-10</item>
+        <item>10-20</item>
+        <item>20-100</item>
+        <item>100+</item>
+    </string-array>
+    <string name="button_personal_form">Complete el cuestionario de riesgos de contraer el virus COVID-19.</string>
+    <string name="text_risk_eval_title">Evaluación de riesgos personales de contraer el virus COVID-19.</string>
+    <string name="text_risk_eval_descr">Las siguentes preguntas son categorizadas en tres partes para evaluar su riesgo de contraer el virus COVID-19.\n\n<u><b>*Los datos personales se encuentren anonimizados*</b></u></string>
+    <string name="interaction_form_button">Añada interacciones sociales</string>
+    <string name="clear_entries">Borrar informacion entrada</string>
+    <string name="refresh">Restorar la pantalla</string>
+    <string name="decsrip_interaction_eval">Use el menú desplegable para responder las siguentes preguntas sobre sus interacciones sociales. Las respuestas se registran automáticamente  y se muestran en la pestaña Interacciones después de actualizar la página.\n\n<u><b>*Los datos personales se encuentren anonimizados*</b></u></string>
+    <string name="minorSymptoms"><b>Síntomas menores</b>\nFiebre y escalofríos\ntos\nRespiración dificultosa
+    \nFatiga\nDolores musculares\nDolores de cabeza\nNueva pérdida del gusto u olfato\nDolor de garganta\nCongestión o secreción nasal.\nNáuseas o vómitos\n
+    Diarrea</string>
+    <string name="severeSymptoms"><b>Síntomas severos</b>\nSevere trouble breathing\nDolor persistente en el pecho\nConfusión\nIncapacidad para
+    despertar o permanece despierto
+
+\nLabios o cara azulados</string>
+
+
+
+</resources>
